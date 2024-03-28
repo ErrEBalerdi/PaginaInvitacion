@@ -65,8 +65,11 @@ align-items: center;
   font-size: 100px;
   font-family: "Libre Bodoni", serif;
 color: #ffffff;
-
- 
+}
+@media only screen and (max-width: 768px) {
+  #Titulo1 {
+    font-family: "Libre Bodoni", serif; /* Fuente alternativa para móviles */
+  }
 }
 #Titulo2{
   font-size: 50px;
