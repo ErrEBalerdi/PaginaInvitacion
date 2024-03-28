@@ -152,6 +152,7 @@ section img:hover{
 margin-top: 15px;
 display: flex;
 justify-content: center;
+align-items: center;
 flex-direction:column;
 background-image: url(https://i.imgur.com/Q3Dj54s.jpeg);
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
