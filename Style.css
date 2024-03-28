@@ -1,0 +1,175 @@
+
+#hider {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#fotoCostado {
+  display: flex;
+  object-fit: contain;
+  margin: 0 auto;
+  border-radius: 3px;
+border: 6px;
+border-style: solid;
+border-color: #FFFAF0;
+}
+#BtnWpp{
+width: 40px;
+height: 40px;
+overflow: hidden;
+background-image: url(https://i.imgur.com/F2ajIWN.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+display: flex;
+margin: 15px;
+}
+#BtnIg{
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  background-image: url(https://i.imgur.com/6F1xXGM.png);
+  background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+  display: flex;
+  margin: 15px;
+}
+.botonesH{
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+#Titulos{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#Titulo1{
+  font-size: 100px;
+  font-family: "Bodoni MT";
+color: #ffffff;
+
+ 
+}
+#Titulo2{
+  font-size: 50px;
+  font-family: "Bodoni MT";
+color: #ffffff;
+ 
+}
+#botonVerMas{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+}
+
+
+#txtYfto{
+margin-top: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-image: url(https://i.imgur.com/Q3Dj54s.jpeg);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+height:auto;
+overflow: hidden;
+}
+#ConfirmaTuLugar{
+  font-size: 50px;
+  display: flex;
+  font-family:"Bodoni MT";
+  color: #000000;
+  
+}
+#cuadroDeTexto{
+  display: flex;
+justify-content: center;
+}
+#texto{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 30px;
+background-image: url(https://i.imgur.com/Q3Dj54s.jpeg); 
+border-radius: 3px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#invitacionTXT{
+  margin: 15px;
+  font-size: 30px;
+  font-family:"Bodoni MT";
+  color:#000000;
+  text-align:center;
+  line-height: 1.5;
+}
+
+#galeria{
+  display: flex;
+  justify-content: center;
+}
+section{
+  display: flex;
+  width: 600px;
+  height: 430px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+section img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+}
+section img:hover{
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+#Transferencia{
+margin-top: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:row;
+background-image: url(https://i.imgur.com/Q3Dj54s.jpeg);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+height:auto;
+overflow: hidden;
+}
+#mensajeColaborar{
+  font-size: 30px;
+  font-family:"Bodoni MT";
+  color: #000000;
+}
+#pagoInfo{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column ;
+margin: 15px;
+padding: 30px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#txttransferencia{
+  font-size: 20px;
+}
